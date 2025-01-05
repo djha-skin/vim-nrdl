@@ -14,7 +14,7 @@ endif
 " Case sensitive
 syntax case match
 
-setlocal iskeyword+='-
+setlocal iskeyword+=',-
 
 syntax region nrdlComment start=/#/ end=/$/
 
